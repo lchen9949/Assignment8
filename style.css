@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 2em;
+}
+p {
+    font-weight: bold;
+}
+div {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+div input {
+    margin-left: 54px;
+    margin-right: 5px;
+    border: 2px solid rgb(62, 148, 227);
+    height: 25px;
+    width:240px;
+}
+div #name {
+    margin-left: 40px;
+    margin-right: 5px;
+    border: 2px solid rgb(62, 148, 227);
+    height: 25px;
+    width:240px;
+}
+div #extension {
+    margin-left: 13px;
+    margin-right: 5px;
+}
+
+div input:first-child {
+    margin-left: 210px;
+    border: 2px solid rgb(62, 148, 227);
+    height: 25px;
+    width:100px;
+    background-color: rgb(62, 148, 227);
+    color: white;
+}
+div #addButton {
+    border:2px solid rgb(18, 97, 172);
+    background-color: rgb(62, 148, 227);
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    margin-left: 235px;
+}
+table caption {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+thead tr {
+    border-spacing: 1px 2px;
+    background-color: rgb(62, 148, 227);
+    color: white;
+    
+}
+thead th {
+    width: 180px;
+    height: 35px;
+    text-align: left;
+    padding-left: 8px;
+}
+tbody tr {
+    border-collapse: collapse;
+    row-gap: none;
+}
+tbody td {
+    width: 180px;
+    height: 35px;
+    text-align: left;
+    padding-left: 8px;
+    margin-top: 0px;
+}
+tbody tr td:last-child {
+    text-align: center;
+}
+tbody td input[type="button"] {
+    height: 20px;
+    width:80px;
+    background-color: rgb(62, 148, 227);
+    border:1px solid rgb(18, 97, 172);
+    color:white;
+}
+tbody tr:nth-child(odd) {
+    background-color: rgb(184, 217, 248);
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(214, 228, 241);
+}
+
+
